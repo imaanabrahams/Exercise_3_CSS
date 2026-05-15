@@ -17,7 +17,7 @@ body {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: black;
+  background: pink;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,7 +64,7 @@ body {
     z-index: 10;
 }
 .logo{
-    color: cyan;
+    color: pink;
     font-size: 2rem;
 }
 .nav-links{
@@ -95,7 +95,7 @@ body {
     transition: color 0.4s ease;
 }
 .nav-links a:hover{
-    color: cyan;
+    color: pink;
 }
 @keyframes slideDown{
     to{
@@ -110,7 +110,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #00c6ff);
+    background: linear-gradient(-45deg, pink, rgb(252, 142, 160), rgb(234, 102, 124), rgb(241, 52, 84));
     background-size: 400% 400%;
     animation: gradientMove 10s ease infinite;
 }
@@ -137,7 +137,7 @@ body {
 .cta-btn{
     padding: 15px 35px;
     border: none;
-    background: cyan;
+    background: pink;
     color: black;
     font-size: 1rem;
     border-radius: 30px;
@@ -169,7 +169,7 @@ body {
 .skew-box{
     width: 250px;
     height: 100px;
-    background: cyan;
+    background: pink;
     transform: skew(-20deg);
     margin: 50px auto;
 }
@@ -181,7 +181,7 @@ body {
     padding: 60px;
 }
 .product-card{
-    background: #1b1b1b;
+    background: pink;
     border-radius: 20px;
     padding: 20px;
     text-align: center;
@@ -238,13 +238,13 @@ body {
 }
 .product-card p{
     margin-bottom: 20px;
-    color: #ccc;
+    color: black;
 }
 .product-card button{
     padding: 10px 25px;
     border: none;
     border-radius: 25px;
-    background: cyan;
+    background: green;
     color: black;
     cursor: pointer;
     transition:
@@ -259,7 +259,7 @@ body {
 /* Rotating Icons */
 .icon{
     font-size: 2rem;
-    color: cyan;
+    color: pink;
     margin-bottom: 15px;
     transform-origin: center;
     transition: transform 0.6s ease;
@@ -280,4 +280,3 @@ body {
         padding: 30px;
     }
   }
-
